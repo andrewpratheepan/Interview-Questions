@@ -12,4 +12,6 @@ def stringCompression(a):
            temp = a[i]
     b += temp
     b += str(counter)
-    return b
+    if len(b) < len(a): #short length check
+        return b
+    return a
