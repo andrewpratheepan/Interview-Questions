@@ -13,4 +13,3 @@ def oneAway(a,b):
 def a(a,b):
     c = list(set(list(a)) - set(list(b)))
     print(c)
-a("pads","pacc")
